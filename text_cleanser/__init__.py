@@ -1,1 +1,1 @@
-from .text_cleanser import remove_punc_and_stopwords
+from .utils import remove_punc_and_stopwords
