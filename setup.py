@@ -1,21 +1,16 @@
 from setuptools import setup, find_packages
-
 setup(
-    name='text_cleaner',
-    version='0.1.0',
-    packages=find_packages(),
-    install_requires=['nltk'],
+    name='puctuation_and_stopwords_remover',
+    version='0.1.1',
     author='Muhammad Wajahat Hussain',
-    author_email='rajawajahat2003@example.com',
-    description='A simple NLP tool to remove punctuation and stopwords.',
+    author_email='rajawajahat@example.com',
+    description='A Python package for data cleaning process of NLP tasks, specifically for removing punctuation and stopwords.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/RMWajahat/tpsc',
-    license='MIT',
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+    packages=find_packages(),
+    install_requires=[
+        'nltk',
     ],
     python_requires='>=3.6',
 )
